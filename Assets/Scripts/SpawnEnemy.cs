@@ -51,6 +51,7 @@ public class SpawnEnemy : MonoBehaviour
                     timer = spawnTime;
                 }
             }
+            yield return null;
         }
     }
 
